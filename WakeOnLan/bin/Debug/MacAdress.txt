@@ -1,6 +1,29 @@
-*** Pro Zeile eine Mac Adresse ohne Trennungszeichen z.B.: 11AA33BB55CC ***
-F44D306D9A10
-ECA86BFC5F45
-64006A8C353D
-3C528256CDB9
-00012E678B3A
+### Pro Zeile eine Mac Adresse ohne Trennungszeichen z.B.: 11AA33BB55CC ###
+# Die Raute "#" am Anfang einer Zeile markiert einen Kommentar und wird nicht im Programm verarbeitet.
+
+# Neuer NUC
+#F44D306D9A10
+
+# Alter NUC
+#ECA86BFC5F45
+
+# MMT TouchTisch
+#64006A8C353D
+
+# Holzmedia Möbel
+# 3C528256CDB9
+
+# Zotac HypeBox
+#00012E678B3A
+
+# Glaspalast
+#40B034191DA2
+
+# Demokoffer I
+40B034191DA4
+
+# Demokoffer II
+#00FEC8F70D9D
+
+# I7 Demo SFF 01
+#3C528256D0FC

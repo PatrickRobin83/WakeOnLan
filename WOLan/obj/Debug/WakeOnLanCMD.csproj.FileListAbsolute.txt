@@ -9,3 +9,14 @@ D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Debug\WakeOnLanCMD.csproj.CoreCo
 D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Debug\WakeOnLanCMD.csproj.CopyComplete
 D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Debug\WOLan.exe
 D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Debug\WOLan.pdb
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Debug\MacAdress.txt
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Debug\WOLan.exe.config
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Debug\WOLan.exe
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Debug\WOLan.pdb
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Debug\WakeOnLan.dll
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Debug\WakeOnLan.pdb
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Debug\WakeOnLanCMD.csprojAssemblyReference.cache
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Debug\WakeOnLanCMD.csproj.CoreCompileInputs.cache
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Debug\WakeOnLanCMD.csproj.CopyComplete
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Debug\WOLan.exe
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Debug\WOLan.pdb

@@ -4,3 +4,9 @@ D:\Projekte\MeineProgrammierung\WOLan\WakeOnLan\bin\Debug\WakeOnLan.pdb
 D:\Projekte\MeineProgrammierung\WOLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.csproj.CoreCompileInputs.cache
 D:\Projekte\MeineProgrammierung\WOLan\WakeOnLan\obj\Debug\WakeOnLan.dll
 D:\Projekte\MeineProgrammierung\WOLan\WakeOnLan\obj\Debug\WakeOnLan.pdb
+D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\bin\Debug\MacAdress.txt
+D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\bin\Debug\WakeOnLan.dll
+D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\bin\Debug\WakeOnLan.pdb
+D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.csproj.CoreCompileInputs.cache
+D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLan.dll
+D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLan.pdb

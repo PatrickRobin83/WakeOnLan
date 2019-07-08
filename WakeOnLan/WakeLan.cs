@@ -90,11 +90,12 @@ namespace WakeOnLanLibrary
 
                 while((line = sr.ReadLine()) != null)
                 {
-                    macAdresses.Add(line);
+                    if(line.Substring(0,1) != "#" || line.Length > 0)
+                    {
+                        macAdresses.Add(line);
+                    }
                 }
             }
-            macAdresses.RemoveAt(0);
-
 
             return macAdresses;
         }
