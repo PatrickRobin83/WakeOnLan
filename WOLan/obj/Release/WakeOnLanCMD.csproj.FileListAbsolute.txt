@@ -8,3 +8,14 @@ D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Release\WakeOnLanCMD.csproj.Core
 D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Release\WakeOnLanCMD.csproj.CopyComplete
 D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Release\WOLan.exe
 D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Release\WOLan.pdb
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Release\MacAdress.txt
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Release\WOLan.exe.config
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Release\WOLan.exe
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Release\WOLan.pdb
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Release\WakeOnLan.dll
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\bin\Release\WakeOnLan.pdb
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Release\WakeOnLanCMD.csprojAssemblyReference.cache
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Release\WakeOnLanCMD.csproj.CoreCompileInputs.cache
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Release\WakeOnLanCMD.csproj.CopyComplete
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Release\WOLan.exe
+D:\Projekte\MeineProgrammierung\WakeOnLan\WOLan\obj\Release\WOLan.pdb
