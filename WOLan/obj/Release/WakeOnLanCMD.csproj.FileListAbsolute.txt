@@ -1,0 +1,10 @@
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\bin\Release\WOLan.exe.config
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\bin\Release\WOLan.exe
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\bin\Release\WOLan.pdb
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\bin\Release\WakeOnLan.dll
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\bin\Release\WakeOnLan.pdb
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Release\WakeOnLanCMD.csprojAssemblyReference.cache
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Release\WakeOnLanCMD.csproj.CoreCompileInputs.cache
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Release\WakeOnLanCMD.csproj.CopyComplete
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Release\WOLan.exe
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Release\WOLan.pdb

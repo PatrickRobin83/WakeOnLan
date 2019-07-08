@@ -1,0 +1,5 @@
+D:\Projekte\MeineProgrammierung\WOLan\WakeOnLan\bin\Release\WakeOnLan.dll
+D:\Projekte\MeineProgrammierung\WOLan\WakeOnLan\bin\Release\WakeOnLan.pdb
+D:\Projekte\MeineProgrammierung\WOLan\WakeOnLan\obj\Release\WakeOnLanLibrary.csproj.CoreCompileInputs.cache
+D:\Projekte\MeineProgrammierung\WOLan\WakeOnLan\obj\Release\WakeOnLan.dll
+D:\Projekte\MeineProgrammierung\WOLan\WakeOnLan\obj\Release\WakeOnLan.pdb

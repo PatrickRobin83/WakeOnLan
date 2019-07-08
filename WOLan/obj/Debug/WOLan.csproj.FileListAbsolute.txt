@@ -1,0 +1,6 @@
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\bin\Debug\WOLan.exe.config
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\bin\Debug\WOLan.exe
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\bin\Debug\WOLan.pdb
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Debug\WOLan.csproj.CoreCompileInputs.cache
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Debug\WOLan.exe
+D:\Projekte\MeineProgrammierung\WOLan\WOLan\obj\Debug\WOLan.pdb
