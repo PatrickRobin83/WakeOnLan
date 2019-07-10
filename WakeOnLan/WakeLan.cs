@@ -94,6 +94,7 @@ namespace WakeOnLanLibrary
                     {
                         if (line.Substring(0, 1) != "#")
                         {
+                            line = line.Replace("-", "");
                             macAdresses.Add(line);
                         }
                     }

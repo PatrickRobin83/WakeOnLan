@@ -20,7 +20,7 @@
 #40B034191DA2
 
 # Demokoffer I
-40B034191DA4
+40-B0-34-19-1D-A4
 
 # Demokoffer II
 #00FEC8F70D9D

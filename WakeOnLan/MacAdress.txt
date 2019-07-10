@@ -1,4 +1,4 @@
-### Pro Zeile eine Mac Adresse ohne Trennungszeichen z.B.: 11AA33BB55CC ###
+### Pro Zeile eine Mac Adresse mit Trennungszeichen z.B.: 11-AA-33-BB-55-CC ###
 # Die Raute "#" am Anfang einer Zeile markiert einen Kommentar und wird nicht im Programm verarbeitet.
 
 # Neuer NUC
@@ -20,7 +20,7 @@
 #40B034191DA2
 
 # Demokoffer I
-40B034191DA4
+40-B0-34-19-1D-A4
 
 # Demokoffer II
 #00FEC8F70D9D
