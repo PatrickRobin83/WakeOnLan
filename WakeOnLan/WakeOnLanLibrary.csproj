@@ -7,8 +7,8 @@
     <ProjectGuid>{95782963-7D90-42BF-A266-B57E84BEB2CB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WakeOnLan</RootNamespace>
-    <AssemblyName>WakeOnLan</AssemblyName>
+    <RootNamespace>WakeOnLanLibrary</RootNamespace>
+    <AssemblyName>WakeOnLanLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArpEntity.cs" />
+    <Compile Include="ArpHelper.cs" />
+    <Compile Include="DeviceScanner.cs" />
+    <Compile Include="IpFinder.cs" />
     <Compile Include="WakeLan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

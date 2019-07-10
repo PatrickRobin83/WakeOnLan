@@ -10,6 +10,7 @@ namespace WakeOnLanLibrary
 {
     public class WakeLan
     {
+        static List<string> macAdresses = new List<string>();
         static string ApplicationPath
         {
             get
@@ -75,7 +76,7 @@ namespace WakeOnLanLibrary
 
         public static List<string> ReadMacFromTextFile()
         {
-            List<string> macAdresses = new List<string>();
+           
             string PathToMacFile = $"{ApplicationPath}\\MacAdress.txt";
 
             if (!File.Exists(PathToMacFile))
@@ -90,18 +91,17 @@ namespace WakeOnLanLibrary
 
                 while((line = sr.ReadLine()) != null)
                 {
-                    if (line.Length > 0)
+                    if (line.Length > 0 && line.Substring(0,1) != "#" )
                     {
-                        if (line.Substring(0, 1) != "#")
-                        {
-                            line = line.Replace("-", "");
+                            //line = line.Replace("-", "");
+                            line = line.ToLower();
                             macAdresses.Add(line);
-                        }
                     }
                 }
             }
-
+            
             return macAdresses;
         }
+
     }
 }
