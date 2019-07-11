@@ -10,3 +10,4 @@ D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\bin\Debug\WakeOnLanLibrary.d
 D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\bin\Debug\WakeOnLanLibrary.pdb
 D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.dll
 D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.pdb
+D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.csprojAssemblyReference.cache

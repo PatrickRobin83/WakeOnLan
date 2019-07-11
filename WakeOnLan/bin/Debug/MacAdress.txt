@@ -2,7 +2,7 @@
 # Die Raute "#" am Anfang einer Zeile markiert einen Kommentar und wird nicht im Programm verarbeitet.
 
 # Neuer NUC
-F4-4D-30-6D-9A-10
+#F4-4D-30-6D-9A-10
 
 # Alter NUC
 #EC-A8-6B-FC-5F-45
@@ -23,7 +23,7 @@ F4-4D-30-6D-9A-10
 #40-B0-34-19-1D-A4
 
 # Demokoffer II Ethernet Adapter
-18-60-24-87-F9-5B
+#18-60-24-87-F9-5B
 
 # Demokoffer II WiFi Adapter
 #36-E1-2D-50-C6-B6
