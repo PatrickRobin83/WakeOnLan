@@ -11,10 +11,18 @@ namespace WakeOnLanLibrary
     {
         public static bool IsHostAccessible(string hostNameOrAddress)
         {
-            Ping ping = new Ping();
-            PingReply reply = ping.Send(hostNameOrAddress, 1000);
+            bool isHostAccessible = false;
+            if (hostNameOrAddress != null)
+            {
+                Ping ping = new Ping();
+                PingReply reply = ping.Send(hostNameOrAddress, 1000);
+                if(reply != null && reply.Status == IPStatus.Success)
+                {
+                    isHostAccessible = true;
+                }
+            }
 
-            return reply != null && reply.Status == IPStatus.Success;
+            return isHostAccessible; 
         }
     }
 }

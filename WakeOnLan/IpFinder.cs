@@ -9,10 +9,10 @@ namespace WakeOnLanLibrary
     {
         public static string FindIpAddressByMacAddress(string macAddress, string currentIpAddress)
         {
-            Parallel.ForEach(GetListOfSubnetIps(currentIpAddress), delegate (string s)
-            {
-                DeviceScanner.IsHostAccessible(s);
-            });
+            //Parallel.ForEach(GetListOfSubnetIps(currentIpAddress), delegate (string s)
+            //{
+            //    DeviceScanner.IsHostAccessible(s);
+            //});
 
             var arpEntities = new ArpHelper().GetArpResult();
             var ip = arpEntities.FirstOrDefault(
