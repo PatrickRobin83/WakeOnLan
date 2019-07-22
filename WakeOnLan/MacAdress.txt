@@ -23,10 +23,10 @@
 #40-B0-34-19-1D-A4
 
 # Demokoffer II Ethernet Adapter
-18-60-24-87-F9-5B
+#18-60-24-87-F9-5B
 
 # Demokoffer II WiFi Adapter
 #36-E1-2D-50-C6-B6
 
 # I7 Demo SFF 01
-#3C-52-82-56-D0-FC
+3C-52-82-56-D0-FC
