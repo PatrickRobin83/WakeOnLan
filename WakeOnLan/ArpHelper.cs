@@ -24,10 +24,11 @@ namespace WakeOnLanLibrary
 
         private List<ArpEntity> ParseArpResult(string output)
         {
+
             var lines = output.Split('\n').Where(l => !string.IsNullOrWhiteSpace(l));
 
             var result =
-                (from line in lines
+                from line in lines
                  select Regex.Split(line, @"\s+")
                     .Where(i => !string.IsNullOrWhiteSpace(i)).ToList()
                     into items
@@ -37,7 +38,8 @@ namespace WakeOnLanLibrary
                      Ip = items[0],
                      MacAddress = items[1],
                      Type = items[2]
-                 });
+                 };
+            
 
             return result.ToList();
         }
