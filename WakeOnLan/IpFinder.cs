@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace WakeOnLanLibrary
 {
@@ -9,11 +8,6 @@ namespace WakeOnLanLibrary
     {
         public static string FindIpAddressByMacAddress(string macAddress, string currentIpAddress)
         {
-            //Parallel.ForEach(GetListOfSubnetIps(currentIpAddress), delegate (string s)
-            //{
-            //    DeviceScanner.IsHostAccessible(s);
-            //});
-
             var arpEntities = new ArpHelper().GetArpResult();
             var ip = arpEntities.FirstOrDefault(
                 a => string.Equals(

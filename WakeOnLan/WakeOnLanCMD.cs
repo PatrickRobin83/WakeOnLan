@@ -12,8 +12,8 @@ namespace WakeOnLan
         static List<string> macAdresses = new List<string>();
         static List<string> HostsOffline = new List<string>();
         static string remoteHostIP;
-        static string HostName = System.Net.Dns.GetHostName();
-        static System.Net.IPHostEntry hostInfo = Dns.GetHostByName(HostName);
+        static string HostName = Dns.GetHostName();
+        static IPHostEntry hostInfo = Dns.GetHostEntry(HostName);
         static string IpAdresse = hostInfo.AddressList[0].ToString();
         
         static void Main(string[] args)
@@ -32,10 +32,7 @@ namespace WakeOnLan
             {
                 tryAgain(HostsOffline);
             }
-            
-            //Console.WriteLine("Zum Beenden eine beliebige Taste drücken ...\r\n");
-            //Console.ReadKey();
-            Thread.Sleep(15000);
+            Thread.Sleep(5000);
         }
 
         public static List<string> AddMacToList()
@@ -83,12 +80,17 @@ namespace WakeOnLan
                         {
                             Console.WriteLine($"Rechner: {getHostNameFromIp(hosts[i])} mit IP:{ hosts[i]} ist nun erreichbar\r\n");
                             hosts.Remove(hosts[i]);
+                            break;
                         }
                     }
                     i++;
                 }
                 j++;
-                Thread.Sleep(15000);
+                if(hosts.Count == 0)
+                {
+                    break;
+                }
+                Thread.Sleep(5000);
             }
 
             foreach (string notFoundIP in hosts)

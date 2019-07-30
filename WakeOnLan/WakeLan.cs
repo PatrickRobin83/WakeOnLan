@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -54,7 +53,6 @@ namespace WakeOnLanLibrary
                 Console.WriteLine(ex.Message);
             }
         }
-
         public static IPAddress get_broadcast()
         {
             try
