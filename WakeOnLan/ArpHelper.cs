@@ -37,10 +37,8 @@ namespace WakeOnLanLibrary
                  {
                      Ip = items[0],
                      MacAddress = items[1],
-                     Type = items[2]
+                     Type = items[2]  
                  };
-            
-
             return result.ToList();
         }
     }

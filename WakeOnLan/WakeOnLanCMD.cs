@@ -14,7 +14,7 @@ namespace WakeOnLan
         static string remoteHostIP;
         static string HostName = Dns.GetHostName();
         static IPHostEntry hostInfo = Dns.GetHostEntry(HostName);
-        static string IpAdresse = hostInfo.AddressList[0].ToString();
+        static string IpAdresse = hostInfo.AddressList[5].ToString();
         
         static void Main(string[] args)
         {
@@ -52,18 +52,21 @@ namespace WakeOnLan
 
         public static List<string> hostsNotReachable()
         {
-            foreach (string mac in macAdresses)
+            if (macAdresses.Count > 0)
             {
-                remoteHostIP = IpFinder.FindIpAddressByMacAddress(mac, IpAdresse);
+                foreach (string mac in macAdresses)
+                {
+                    remoteHostIP = IpFinder.FindIpAddressByMacAddress(mac, IpAdresse);
 
-                if (DeviceScanner.IsHostAccessible(remoteHostIP))
-                {
-                    Console.WriteLine($"Rechner {getHostNameFromIp(remoteHostIP)} mit IP:{remoteHostIP} ist nun erreichbar\r\n");
-                }
-                else
-                {
-                    HostsOffline.Add(remoteHostIP);
-                }
+                    if (DeviceScanner.IsHostAccessible(remoteHostIP))
+                    {
+                        Console.WriteLine($"Rechner {getHostNameFromIp(remoteHostIP)} mit IP:{remoteHostIP} ist nun erreichbar\r\n");
+                    }
+                    else
+                    {
+                        HostsOffline.Add(remoteHostIP);
+                    }
+                } 
             }
             return HostsOffline;
         }

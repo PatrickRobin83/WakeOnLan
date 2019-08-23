@@ -59,7 +59,7 @@ namespace WakeOnLanLibrary
             {
                 string ipadress;
                 IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName()); // get a list of all local IPs
-                IPAddress localIpAddress = ipHostInfo.AddressList[0]; // choose the first of the list
+                IPAddress localIpAddress = ipHostInfo.AddressList[2]; // choose the first of the list
                 ipadress = Convert.ToString(localIpAddress); // convert to string
                 ipadress = ipadress.Substring(0, ipadress.LastIndexOf(".") + 1); // cuts of the last octet of the given IP 
                 ipadress += "255"; // adds 255 witch represents the local broadcast
@@ -71,7 +71,6 @@ namespace WakeOnLanLibrary
                 return IPAddress.Parse("127.0.0.1");// in case of error return the local loopback
             }
         }
-
         public static List<string> ReadMacFromTextFile()
         {
            

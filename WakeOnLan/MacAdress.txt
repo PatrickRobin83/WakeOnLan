@@ -2,25 +2,25 @@
 # Die Raute "#" am Anfang einer Zeile markiert einen Kommentar und wird nicht im Programm verarbeitet.
 
 # Neuer NUC
-F4-4D-30-6D-9A-10
+#F4-4D-30-6D-9A-10
 
 # Alter NUC
-EC-A8-6B-FC-5F-45
+#EC-A8-6B-FC-5F-45
 
 # MMT TouchTisch
-64-00-6A-8C-35-3D
+#64-00-6A-8C-35-3D
 
 # Holzmedia Möbel
- 3C-52-82-56-CD-B9
+#3C-52-82-56-CD-B9
 
 # Zotac HypeBox
-00-01-2E-67-8B-3A
+#00-01-2E-67-8B-3A
 
 # Glaspalast
 #40-B0-34-19-1D-A2
 
 # Demokoffer I
-#40-B0-34-19-1D-A4
+40-B0-34-19-1D-A4
 
 # Demokoffer II Ethernet Adapter
 #18-60-24-87-F9-5B
