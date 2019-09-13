@@ -17,10 +17,10 @@
 #00-01-2E-67-8B-3A
 
 # Glaspalast
-#40-B0-34-19-1D-A2
+40-B0-34-19-1D-A2
 
 # Demokoffer I
-40-B0-34-19-1D-A4
+#40-B0-34-19-1D-A4
 
 # Demokoffer II Ethernet Adapter
 #18-60-24-87-F9-5B

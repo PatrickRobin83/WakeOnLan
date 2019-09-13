@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
+using System.Management;
 using System.Threading;
 using WakeOnLanLibrary;
 
@@ -14,11 +15,11 @@ namespace WakeOnLan
         static string remoteHostIP;
         static string HostName = Dns.GetHostName();
         static IPHostEntry hostInfo = Dns.GetHostEntry(HostName);
-        static string IpAdresse = hostInfo.AddressList[5].ToString();
-        
+        //should be changed for the right 
+        static string IpAdresse = null;
         static void Main(string[] args)
         {
-            
+           
             foreach (string mac in WakeLan.ReadMacFromTextFile())
             {
                 WakeLan.WakeUp(mac.Replace("-",""), WakeLan.get_broadcast());
@@ -56,6 +57,25 @@ namespace WakeOnLan
             {
                 foreach (string mac in macAdresses)
                 {
+                    foreach (IPAddress ip in hostInfo.AddressList)
+                    {
+                        try
+                        {
+                            // For Debug Purpose
+                            //Console.WriteLine($"ermittelte IP: {ip.ToString().Substring(0, 9)} eigene IP: {IpFinder.GetOwnIPV4().Substring(0, 9)}");
+                            if (!String.IsNullOrEmpty(ip.ToString()) && ip.ToString().Substring(0,9).Equals(IpFinder.GetOwnIPV4().Substring(0,9)))
+                            {
+                                IpAdresse = ip.ToString();
+                                // For  Debug Purpose
+                                //Console.WriteLine(IpAdresse);
+                            }
+                        }
+                        catch(Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
+                        
+                    }
                     remoteHostIP = IpFinder.FindIpAddressByMacAddress(mac, IpAdresse);
 
                     if (DeviceScanner.IsHostAccessible(remoteHostIP))
