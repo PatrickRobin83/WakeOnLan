@@ -30,3 +30,12 @@
 
 # I7 Demo SFF 01
 #3C-52-82-56-D0-FC
+
+#X5-Newline ComTec
+#00-10-F3-72-DA-E7
+
+# sP-AMD-RTX Ethernet
+# B4-2E-99-A2-AE-ED
+
+# sP-AMD-RTX WiFi
+# 50-E0-85-89-A3-78

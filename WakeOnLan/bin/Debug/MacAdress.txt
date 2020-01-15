@@ -30,3 +30,6 @@
 
 # I7 Demo SFF 01
 #3C-52-82-56-D0-FC
+
+#X5-Newline ComTec
+00-10-F3-72-DA-E7

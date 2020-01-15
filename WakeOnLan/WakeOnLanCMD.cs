@@ -67,7 +67,7 @@ namespace WakeOnLan
                             {
                                 IpAdresse = ip.ToString();
                                 // For  Debug Purpose
-                                //Console.WriteLine(IpAdresse);
+                              //  Console.WriteLine(IpAdresse);
                             }
                         }
                         catch(Exception ex)
