@@ -10,3 +10,9 @@ D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\bin\Debug\WakeOnLanLibrary.p
 D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.dll
 D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.pdb
 D:\Projekte\MeineProgrammierung\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.csprojAssemblyReference.cache
+D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\bin\Debug\MacAdress.txt
+D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\bin\Debug\WakeOnLanLibrary.dll
+D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\bin\Debug\WakeOnLanLibrary.pdb
+D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.csprojAssemblyReference.cache
+D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.dll
+D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.pdb

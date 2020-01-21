@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 
@@ -53,23 +54,25 @@ namespace WakeOnLanLibrary
                 Console.WriteLine(ex.Message);
             }
         }
+        private static string ipAdressString = "";
+        private static List<IPAddress> localIpAdresses = new List<IPAddress>();
         public static IPAddress get_broadcast()
         {
             try
             {
-                string ipadress;
-                IPHostEntry ipHostInfo = Dns.Resolve(Dns.GetHostName()); // get a list of all local IPs
-                IPAddress localIpAddress = ipHostInfo.AddressList[1]; // choose the first of the list
-                ipadress = Convert.ToString(localIpAddress); // convert to string
-                ipadress = ipadress.Substring(0, ipadress.LastIndexOf(".") + 1); // cuts of the last octet of the given IP 
-                ipadress += "255"; // adds 255 witch represents the local broadcast
-                return IPAddress.Parse(ipadress);
+                ipAdressString = IpFinder.GetOwnIPV4();
+                ipAdressString = ipAdressString.Substring(0, ipAdressString.LastIndexOf(".") + 1); // cuts of the last octet of the given IP 
+                ipAdressString += "255"; // adds 255 witch represents the local broadcast
+                
             }
+
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                return IPAddress.Parse("127.0.0.1");// in case of error return the local loopback
+                Console.WriteLine("Error: " + e.Message +  "\r\n" + e.StackTrace);
+                return IPAddress.Parse("127.0.0.1"); // in case of error return the local loopback
             }
+
+            return IPAddress.Parse(ipAdressString);
         }
         public static List<string> ReadMacFromTextFile()
         {
