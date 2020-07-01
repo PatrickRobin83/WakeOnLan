@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
-using System.Management;
 using System.Threading;
 using WakeOnLanLibrary;
 
@@ -17,6 +16,8 @@ namespace WakeOnLan
         static IPHostEntry hostInfo = Dns.GetHostEntry(HostName);
         //should be changed for the right 
         static string IpAdresse = null;
+
+
         static void Main(string[] args)
         {
            
@@ -35,7 +36,6 @@ namespace WakeOnLan
             }
             Thread.Sleep(5000);
         }
-
         public static List<string> AddMacToList()
         {
             foreach (string mac in WakeLan.ReadMacFromTextFile())
@@ -50,7 +50,6 @@ namespace WakeOnLan
             }
             return macAdresses;
         }
-
         public static List<string> hostsNotReachable()
         {
             if (macAdresses.Count > 0)
@@ -67,7 +66,7 @@ namespace WakeOnLan
                             {
                                 IpAdresse = ip.ToString();
                                 // For  Debug Purpose
-                              //  Console.WriteLine(IpAdresse);
+                               //  Console.WriteLine(IpAdresse);
                             }
                         }
                         catch(Exception ex)
@@ -121,7 +120,6 @@ namespace WakeOnLan
                 Console.WriteLine("Rechner wurde nicht gefunden. Möglicherweise ist der Rechner nicht eingeschaltet \r\noder nicht mit dem Netzwerk verbunden.\r\n");
             }
         }
-
         public static string getHostNameFromIp(string ip)
         {
             IPHostEntry iPHost = Dns.GetHostEntry(ip);

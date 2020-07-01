@@ -21,7 +21,6 @@ namespace WakeOnLanLibrary
 
             return ParseArpResult(output);
         }
-
         private List<ArpEntity> ParseArpResult(string output)
         {
 

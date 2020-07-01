@@ -16,3 +16,4 @@ D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\bin\Debug\WakeO
 D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.csprojAssemblyReference.cache
 D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.dll
 D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.pdb
+D:\Projekte\MeineProgrammierung\VisualStudio\WakeOnLan\WakeOnLan\obj\Debug\WakeOnLanLibrary.csproj.CoreCompileInputs.cache

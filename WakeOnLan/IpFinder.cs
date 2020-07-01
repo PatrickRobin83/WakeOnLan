@@ -16,7 +16,6 @@ namespace WakeOnLanLibrary
                     a.MacAddress,
                     macAddress,
                     StringComparison.CurrentCultureIgnoreCase))?.Ip;
-
             return ip;
         }
 
