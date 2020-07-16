@@ -28,6 +28,7 @@ namespace WakeOnLan
             }
             AddMacToList();
             Thread.Sleep(30000);
+
             hostsNotReachable();
             
             if (HostsOffline != null && HostsOffline.Count > 0)
@@ -66,7 +67,7 @@ namespace WakeOnLan
                             {
                                 IpAdresse = ip.ToString();
                                 // For  Debug Purpose
-                               //  Console.WriteLine(IpAdresse);
+                                 //Console.WriteLine(IpAdresse);
                             }
                         }
                         catch(Exception ex)
